@@ -77,7 +77,7 @@ const InventoryContainer = (props) => {
       key: 'supplier.name',
       dataIndex: 'supplier.name',
       title: 'Supplier Name',
-      render: (text, record) => record.supplier.name,
+      render: (text, record) => record?.supplier?.name,
     },
     {
       title: 'Action',
